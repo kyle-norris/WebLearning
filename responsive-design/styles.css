@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+/* This provides semantic support for legacy browsers: */
+section, article, aside, footer, header, nav {
+  display: block;
+}
+
 .page {
   display: flex;
   flex-wrap: wrap;
